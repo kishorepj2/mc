@@ -1,0 +1,13 @@
+#include <lpc214x.h> 
+int main()
+{
+	volatile int n, I,fact =1;
+	n=5;	
+
+
+	for (i = 1; i <= n; ++i)
+	fact *= i;	
+
+
+	while(1);
+}
